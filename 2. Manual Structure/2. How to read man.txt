@@ -1,0 +1,24 @@
+man -k which
+
+will list out all the possible commands related to which
+
+(1) in parenthesis tells the section number
+
+to type the specific one
+use man 1 which
+or man which
+
+synposis shows the writing style
+
+if something is in [] it is optional
+
+which command finds the locations of the certain commands
+so in this format we might use
+which date --> to find the location of date 
+or when merge two of them
+which date cal
+
+... in synopsis represents that you can merge
+
+<> means its mandatory
+[-a | b] means can use either of them but not both

@@ -1,0 +1,8 @@
+When we run date command
+the output will be sent from the date commadn and flow down the standard output stream
+which is connected to our terminal screen
+
+however, they can be output somewhere else using process called redirection
+
+there is also an output called standard error when invalid command is given
+standard error is also a data stream, it can be redirected anywhere

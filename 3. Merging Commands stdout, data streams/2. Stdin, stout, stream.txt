@@ -1,0 +1,18 @@
+The data
+
+input two ways
+output two ways
+
+in the form of data streams
+
+input: standard input
+	command line arguments (not a data stream)
+
+output: standard ouput
+	error
+
+
+standard input is by default connected to keyboard
+standard output is connected to terminal
+standard error is connected to terminal
+

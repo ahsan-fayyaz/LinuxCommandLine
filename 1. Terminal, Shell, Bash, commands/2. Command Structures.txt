@@ -1,0 +1,16 @@
+CommandName -options inputs
+
+cal -y is a command with option to show current time
+
+we can run command with full name like this
+
+date --universal
+date -u 		output same thing
+
+can merge commands together in short form
+date -a -b -c
+date -abc 		output same thing
+
+to see a command's path
+
+echo $PATH

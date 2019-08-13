@@ -1,0 +1,33 @@
+Command line:
+ctrl-alt-t --> open
+ctrl -d    --> close
+
+
+Echo command:
+prints out what you want to
+ex: echo hello will print hello
+
+Cal command:
+print calendar
+cal 2017 prints the whole year
+cal -y also prints the year calendar
+
+clear command
+another way is ctrl-l
+also clears,
+
+using up arrow to go to previous commands
+helpful when you have long commands
+
+type history 
+
+shows all the commands
+then if we want to run any command from there
+use !8 for line 8 command
+
+for most recent command
+!!
+
+to clear history
+history -c; history -w
+to clear and make changes permanent

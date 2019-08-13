@@ -1,0 +1,26 @@
+std error
+use 2> for std error
+>> again for saving the files
+
+purpose of this is to keep track of log messages coming from web servers
+
+
+how about std error and stdoutput at the same time
+cat >>1 output.txt 2>> error.txt
+if there is output it goes to output.txt
+if there is error it goes to error.txt
+
+
+how to stdin
+
+make a file with some text already there
+cat 0< input.txt
+may ignore 0 since less since only input has < 
+
+this reads from input.txt and outputs on terminal
+
+how to read from one file and output into another file
+
+cat < input.txt > file.txt
+
+

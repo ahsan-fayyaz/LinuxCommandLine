@@ -1,0 +1,22 @@
+cat command is used to concatenate or stick together multiple files
+
+piping and redirection allows us to create sophisticated command pipelines and move data around
+
+how to redirect stout to some file.txt
+
+*stdout is the stream of data not the final destination
+standard output is number 1
+standard input is number 0
+
+
+how to type command: cat 1> output.txt
+cin>> what you wanna write
+
+and this cin goes to text.txt instead of displaying on the terminal
+
+you can eve ommit writig 1 with > 
+when you write again to the same file, the previous data in it deletes
+fancy way to say truncation
+
+to avoid erasing
+use >> called appending to a file

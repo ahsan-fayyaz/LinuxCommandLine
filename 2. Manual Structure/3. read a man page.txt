@@ -1,0 +1,7 @@
+reading man pages
+
+to find a command:
+man -k "search directory"
+use man with command name
+if man doesn't work
+use help

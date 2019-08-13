@@ -1,0 +1,4 @@
+use tty command in new terminal to get your location
+
+then go to other terminal and write 
+cat < input.txt > whateverlocation 
