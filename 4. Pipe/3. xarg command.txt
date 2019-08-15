@@ -1,0 +1,16 @@
+when a certain command doesn't accept standard input but only commandline arguments,
+xarg is used to convert stdin to commandline argument
+
+suppose we have two files new.txt and old.txt
+and we want to delete both files, there's one way use rm new.txt and rm old.txt
+
+that's awesome
+but suppose, we have another file named deletefiles.txt and it contains names:  new.txt old.txt
+and then we want to delete these both files:
+
+cat deletefiles.txt | xargs rm deletefiles.txt
+
+what would this do? read whatever is inside deletefiles.txt, and then pipe it with xargs, which will convert it into commandline
+arguments for the rm command, pretty simple!
+
+

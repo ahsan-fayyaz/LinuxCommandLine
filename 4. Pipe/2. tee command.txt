@@ -1,0 +1,15 @@
+in the last example, the date was piped with the cut command to show only the first field i.e Day
+however, what if we want to save this output i.e day into a .txt file as well, while at the same time also using cut command
+
+there is a simple solution: tee command, this works as a t junction, sending command horizontally as well as, also saving whole date it vertically, at the 
+same time
+
+syntax:
+
+date | tee file.txt | cut --delimiter " " fields 1 
+
+and to redirect the output of cut command, use > after fields 1
+
+usually after redirection no more piping can occur, however, you can use tee command to continue using pipe
+
+

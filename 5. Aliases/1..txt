@@ -1,0 +1,23 @@
+Aliases are nicknames for your commands or command pipelines which makes them easier to remember
+
+how to make your very own command aliases?
+
+suppose you have a very long command:
+date | tee /home/csc103/fulldate.txt | cut --delimiter " " --fields 1 | tee home/csc103/day.txt | xargs echo hello
+
+and we don't have to type it everytime, what we can do is instead is make an alias for this. so like a short nickname as a new command, 
+which we can type into commandline to get the same input
+
+HOW?
+
+1. go to your home directory
+2. create a special type of file:	.bash_aliases
+3. a . at start of the file makes it hidden
+4. syntax:
+
+alias aliasName:"type the commands here"
+
+5. now restart your terminal and run the new nickname of your command,
+
+	
+

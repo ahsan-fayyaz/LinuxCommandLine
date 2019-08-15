@@ -1,0 +1,7 @@
+piping is connecting stdout of one command to stdin of another command
+
+redirection breaks pipelines ( > )
+so use tee command to save stuff and continue piping
+
+if a command doesn't use stdin, use xargs to convert that stdin into commandline arguments
+xargs can still have its own arguments besides the one piped

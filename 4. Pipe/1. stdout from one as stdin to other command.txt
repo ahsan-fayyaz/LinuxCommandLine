@@ -1,0 +1,13 @@
+piping is all about taking stdout from one command and connecting it with stdin of another
+
+read date into a file
+
+date > date.txt
+
+cut < date.txt -- delimiter " "  --fields  1 
+
+instead simple way
+
+date | cut --delimiter " " --fields 1
+
+can even output it into a file.txt by adding > file.txt
