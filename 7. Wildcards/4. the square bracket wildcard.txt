@@ -1,0 +1,31 @@
+suppose we have 6 files
+
+file1.txt
+file2.txt
+file3.txt
+fileA.txt
+fileB.txt
+fileC.txt
+
+and we want only first three with numbers
+how to do this?
+
+-- example:
+file[1234567890].txt
+
+a shortcut is file[0-9]
+
+so whatever is in the brackets, if it matches to the arguments given
+it will show that file
+
+/*also they just fill in one place*/
+
+
+-- example:
+what if we want fileA1.txt // since there are two digits
+file[A-Z][0-9].txt
+
+e.g:
+
+file[0-9ABC]
+

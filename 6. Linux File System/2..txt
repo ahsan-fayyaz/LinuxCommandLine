@@ -1,0 +1,15 @@
+The file extension actually don't matter in linux
+
+in order to check what type of file we have
+1. go to terminal
+2. type file myfilename.png // it will show what type of file is it
+3. suppose now we change myfilename.jpg // which is another extension for picture
+
+we run: file myfilename.jpg 
+/*doesn't make any difference to what terminal shows, since in the linux, there is a header file which reads the code of the file and doesn't classify anything just according to the 
+file extension*/
+
+
+4. give files your own extension as long as they aren't the ones which already exist e.g
+convert photo.txt can be converted to photo.sss will have no problem
+but photo.txt converted to photo.pdf will cause a problem

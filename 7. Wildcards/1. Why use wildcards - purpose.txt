@@ -1,0 +1,4 @@
+Suppose you want to list out all the files in Documents, Downloads, and Pictures
+
+what you would normally do is: ls Documents Downloads Pictures
+this kind of makes long arguments, to solve this, use wildcards

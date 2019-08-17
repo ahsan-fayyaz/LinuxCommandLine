@@ -1,0 +1,4 @@
+1. everything is treated as a file
+
+2. every one of the files o the system is ona structure 
+known as the linux file system tree

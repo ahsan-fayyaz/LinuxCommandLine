@@ -1,0 +1,10 @@
+
+Another argument to use is: ?
+
+use: ls ?.txt // one "?"
+this would mean that anything can appear before .txt but its length has to be one
+--example: 1.txt, A.txt, this would all count
+
+--example: if you use ??.txt 
+this limits the length to 2
+

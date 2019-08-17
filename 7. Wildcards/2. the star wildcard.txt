@@ -1,0 +1,14 @@
+-- example:
+use: ls *
+since the * matches anything it puts it as command line arguments to ls command
+this will list out contents of all the directories
+
+-- example: list out anything that starts with D
+
+syntax: ls D*
+this means list out anything that starts with D followed by anything (since * represents anything)
+
+-- example: list out anything that has .txt
+
+syntax: ls *.txt
+this means anything followed by .txt
